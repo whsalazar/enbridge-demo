@@ -8,11 +8,11 @@ name: Step 5, Trigger the workflow
 # Reference https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows:
-      - Post welcome comment
-    types:
-      - completed
+  # workflow_run:
+   # workflows:
+   #   - Post welcome comment
+  #  types:
+  #    - completed
 
 # Reference https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
