@@ -1,7 +1,6 @@
 name: Post Welcome Comment
 on:
-  pull_request:
-    types: [opened]
+  push:
 jobs:
   build:
     name: Post Weclome comment
